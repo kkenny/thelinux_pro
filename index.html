@@ -1,0 +1,19 @@
+---
+layout: default
+lang: all
+---
+
+{% include cloud.html %}
+
+<div class="home">
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <h2 style="display: inline;">
+          <span class="post-meta">{{ post.date | date:  "%Y-%m-%d" }}</span>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

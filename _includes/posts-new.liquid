@@ -1,0 +1,16 @@
+{% case page.lang %}
+{% when 'tr' %}
+  {% assign t_summary = "günlük girdileri listesi" %}
+{% else %}
+  {% assign t_summary = "table of blog posts" %}
+{% endcase %}
+
+<table id="blog" summary="{{ t_summary }}">
+  {% for mypost in mypostlist limit:10 %}
+    <tr>
+      <td class="entry_date">{% include post-date.liquid %}</td>
+      <td class="entry_pre">&raquo;</td>
+      <td class="entry_title">{% include post-link.liquid %}</td>
+    </tr>
+  {%endfor%}
+</table>

@@ -1,0 +1,14 @@
+---
+layout: post
+title: Envtag 0.6
+categories: [en, blog]
+tags: [audio, envtag, release]
+uuid: 98b3c9da-1dc4-4967-b836-59b3e2457103
+---
+
+Envtag-0.6 has been released.
+
+- Fix alt\_getopt and envutils for Lua-5.2 and newer.
+
+tarball: [envtag-0.6.tar.bz2](https://dev.exherbo.org/~alip/envtag/envtag-0.6.tar.bz2)  
+sha1sum: e1e1179198cab15717daea986f0a27cbe3a0e963

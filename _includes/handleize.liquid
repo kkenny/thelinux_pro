@@ -1,0 +1,14 @@
+{% comment %}
+  ID and NAME tokens must begin with a letter ([A-Za-z]) and may be followed by any number of
+  letters, digits ([0-9]), hyphens ("-"), underscores ("_"), colons (":"), and periods (".").
+{% endcomment %}
+
+{% capture myvar %}{{ myvar | replace:'ç','c' }}{% endcapture %}
+{% capture myvar %}{{ myvar | replace:'ğ','g' }}{% endcapture %}
+{% capture myvar %}{{ myvar | replace:'ı','i' }}{% endcapture %}
+{% capture myvar %}{{ myvar | replace:'ö','o' }}{% endcapture %}
+{% capture myvar %}{{ myvar | replace:'ş','s' }}{% endcapture %}
+{% capture myvar %}{{ myvar | replace:'ü','u' }}{% endcapture %}
+{% capture myvar %}{{ myvar | replace:'+','plus' | replace:'-','minus' }}{% endcapture %}
+{% capture myvar %}{{ myvar | replace:' ','_' | replace:'/',':' }}{% endcapture %}
+{% capture myid  %}tag-{{ myvar | downcase }}{% endcapture %}

@@ -1,0 +1,20 @@
+---
+layout: post
+title: Kaotik
+categories: [tr, blog]
+tags: [kaos, yazın]
+lang: tr
+uuid: 3e5ea7f3-333b-493a-b4d1-70d22a9236bd
+---
+
+*Kaotik Çağrışımlar* serbest çağrışım temelli, anadili Türkçe olan bir e-posta
+listesidir. Detaylar için aşağıdaki bağlantılara bakabilirsiniz.
+
+* Ana Sayfa:
+  [group/kaotik](http://groups.google.com/group/kaotik)
+* E-posta Adresi:
+  [kaotik@googlegroups.com](mailto:kaotik@googlegroups.com)
+* Beslemeler:
+  [group/kaotik/feeds](http://groups.google.com/group/kaotik/feeds)
+* Manifesto:
+  [thread:4f7789fe8b596e15](http://groups.google.com/group/kaotik/browse_thread/thread/4f7789fe8b596e15)

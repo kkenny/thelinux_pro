@@ -1,0 +1,15 @@
+---
+layout: post
+title: Sydbox-0.1_beta2
+categories: [en, blog]
+tags: [sydbox, release]
+uuid: 087e9236-25e8-453b-8143-55dc347ca505
+---
+
+Sydbox-0.1\_beta2 has been released.
+
+- Canonicalize filenames by default. This was previously only done in paranoid  
+  mode. This makes Sydbox stricter (expect more test suites to fail).
+
+tarball: [sydbox-0.1\_beta2.tar.bz2](http://alip.anapnea.net/sydbox/sydbox-0.1_beta2.tar.bz2)  
+sha1sum: 34cef23db6d81a34b27617c07e5c3f67128ca99d

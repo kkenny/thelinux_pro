@@ -1,0 +1,11 @@
+{% if page.lang %}
+  {% assign mylang = page.lang %}
+{% else %}
+  {% assign mylang = "en" %}
+{% endif %}
+
+{% assign  myvar = mytag %}
+{% include handleize.liquid %}
+
+<a class="tag" href="{{ site.url }}/{{ mylang }}/tags/#{{ myid }}">{{ mytag }}</a>
+

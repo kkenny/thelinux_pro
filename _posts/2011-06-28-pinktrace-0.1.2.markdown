@@ -1,0 +1,11 @@
+---
+layout: post
+title: pinktrace-0.1.2
+categories: [en, blog]
+tags: [pinktrace, release]
+uuid: d0b07340-1c4f-4d36-b4e2-5470d46bfea2
+---
+
+pinktrace-0.1.2 is [released](http://dev.exherbo.org/~alip/pinktrace/#news) with
+a minor change to recognize Linux-3.0 and a new function
+`pink_name_lookup_with_length()`

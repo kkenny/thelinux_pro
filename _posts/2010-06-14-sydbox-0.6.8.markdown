@@ -1,0 +1,18 @@
+---
+layout: post
+title: sydbox-0.6.8
+categories: [en, blog]
+tags: [exherbo, release, sydbox]
+uuid: 40a96232-7934-4158-99ce-bd427048e090
+---
+
+sydbox-0.6.8 is
+[released](http://lists.exherbo.org/pipermail/exherbo-dev/2010-June/000701.html).
+(
+[tarball](http://dev.exherbo.org/~alip/sydbox/sydbox-0.6.8.tar.bz2),
+[sign](http://dev.exherbo.org/~alip/sydbox/sydbox-0.6.8.tar.bz2.asc),
+[sha1sum](http://dev.exherbo.org/~alip/sydbox/sydbox-0.6.8.tar.bz2.sha1sum)
+)
+
+* Add support for network aliases
+* Fix handling of `rmdir()` which doesn't resolve symlinks

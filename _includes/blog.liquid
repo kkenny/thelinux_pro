@@ -1,0 +1,36 @@
+{% assign mylimit    = 5 %}
+{% assign mytaglimit = 5 %}
+
+{% case page.lang %}
+{% when 'tr' %}
+  {% assign t_oldposts = "Eski Girdiler" %}
+  {% assign t_summary  = "eski günlük girdileri listesi" %}
+{% else %}
+  {% assign t_oldposts = "Older Posts" %}
+  {% assign t_summary  = "table of older blog posts" %}
+{% endcase %}
+
+{% for mypost in mypostlist limit:mylimit %}
+  <div class="blog_meta">{% include post-header.liquid %}</div>
+  <div class="blog_entry">{{ mypost.content }}</div>
+  <br />
+{%endfor%}
+
+{% if mypostlist.size > mylimit %}
+  <div id="blog_old">
+    <h2>{{ t_oldposts }}</h2>
+    <table border="0" summary="{{ summary }}">
+      {% for mypost in mypostlist offset:mylimit %}
+        <tr>
+          <td class="date">{% include post-date.liquid %} &raquo;</td>
+          <td class="title" abbr>{% include post-link.liquid %}</td>
+          <td class="tag">
+            {% for mytag in mypost.tags limit:mytaglimit %}
+              {% include tag-link.liquid %}
+            {%endfor%}
+          </td>
+        </tr>
+      {%endfor%}
+    </table>
+  </div>
+{% endif %}

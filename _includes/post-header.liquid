@@ -1,0 +1,23 @@
+<h1 class="title">{% include post-link.liquid %}</h1>
+<div class="post_header_info">
+  <ul class="horizontal">
+    <li class="date">{% include post-date.liquid %} &raquo;</li>
+    {% for mytag in mypost.tags %}
+      <li class="tag">{% include tag-link.liquid %}</li>
+    {%endfor%}
+  </ul>
+</div>
+{% comment %}
+<div class="post_header_link">
+  <ul class="horizontal">
+    {% if page.previous %}
+      {% assign mypost = page.previous %}
+      <li>&laquo; {% include post-date.liquid %} {% include post-link.liquid %}</li>
+    {% endif %}
+    {% if page.next %}
+      {% assign mypost = page.next %}
+      <li>&raquo; {% include post-date.liquid %} {% include post-link.liquid %}</li>
+    {% endif %}
+  </ul>
+</div>
+{% endcomment %}

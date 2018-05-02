@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+    <p class="post-meta">
+      {% case page.lang %}
+      {% when 'tr' %}
+        <span class="name">Yafta:</span>
+        {% for mytag in mypost.tags %}
+          {% include tag-link.liquid %}
+          {% unless forloop.last %},&nbsp;{% endunless %}
+        {% endfor %}
+        <br />
+        <span class="name">Tarih:</span> {{ page.date | date: "%Y-%m-%d"}}<br />
+        <span class="name">Yazar:</span> <a class="page-link" href="mailto:{{site.author.mail}}">Ali Polatel</a><br />
+    </p>
+</div>

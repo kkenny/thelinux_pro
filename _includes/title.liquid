@@ -1,0 +1,8 @@
+{% case page.layout %}
+{% when 'post' %}
+  {% capture myvar %}{{ page.title | truncatewords:5 }}{% endcapture %}
+{% else %}
+  {% capture myvar %}{{ site.title }}{% if page.title %}/{{ page.title | truncatewords:3,'' | replace:' ','_' }}{% endif %}{% endcapture %}
+{% endcase %}
+{% include downcase-tr.liquid %}
+{{ mydownvar }}

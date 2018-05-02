@@ -1,0 +1,16 @@
+---
+layout: post
+title: Envtag 0.3
+categories: [en, blog]
+tags: [audio, envtag, c++, lua, libmagic]
+uuid: 31515d41-d69c-4389-b71a-1e6ac08eebcc
+---
+
+Envtag-0.3 has been released.
+- Rewritten in C++ to make better use of [taglib](http://developer.kde.org/~wheeler/taglib.html).
+- [Lua](http://www.lua.org) is a hard dependency now, Envtag uses it extensively.
+- Support for getting/setting Xiph Comments.
+- Optional libmagic based filetype detection support, enable with __--enable-libmagic__
+
+tarball: [envtag-0.3.tar.gz](http://alip.anapnea.net/envtag/envtag-0.3.tar.gz)  
+sha1sum: 98159a8c53e9aadbeb36c7b83f24099e7ab4566c

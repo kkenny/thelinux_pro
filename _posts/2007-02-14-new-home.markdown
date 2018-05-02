@@ -1,0 +1,11 @@
+---
+layout: post
+title: New Home
+categories: [en, blog]
+tags: [blog, nonlogic]
+uuid: 08c93dcf-dd9f-49e3-9d4f-3d7b7dcbf3b2
+---
+
+I moved my blog to [nonlogic](http://hawking.nonlogic.org).
+
+    cp -ax blog/ nonlogic/

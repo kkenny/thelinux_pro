@@ -1,0 +1,17 @@
+{%case page.lang %}
+{%when 'tr' %}
+  {%assign subscribe = "Abone Ol"  %}
+  {%assign english   = "İngilizce" %}
+  {%assign turkish   = "Türkçe"    %}
+{%else%}
+  {%assign subscribe = "Subscribe" %}
+  {%assign english   = "English"   %}
+  {%assign turkish   = "Turkish"   %}
+{%endcase%}
+
+<h1>{{ subscribe }}</h1>
+<ul>
+  <li><a href="{{ site.rss.all }}">Site</a></li>
+  <li><a href="{{ site.rss.en  }}">{{ english }}</a></li>
+  <li><a href="{{ site.rss.tr  }}">{{ turkish }}</a></li>
+</ul>

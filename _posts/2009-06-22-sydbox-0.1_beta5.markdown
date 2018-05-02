@@ -1,0 +1,17 @@
+---
+layout: post
+title: Sydbox-0.1_beta5
+categories: [en, blog]
+tags: [sydbox, release]
+uuid: 9685660c-eb26-4014-9eb0-65e6baa3751a
+---
+
+Sydbox-0.1\_beta5 is released.
+
+- Implement /dev/sydbox/{un,}ban\_exec. paludis-sydbox branch makes use of these  
+  magic commands to ban execve() calls in metadata phase.
+- When shell\_expand() returns empty string, it was added to the path list  
+  resulting every path prefix check to be allowed, this is now fixed.
+
+tarball: [sydbox-0.1\_beta5.tar.bz2](http://alip.anapnea.net/sydbox/sydbox-0.1_beta5.tar.bz2)  
+sha1sum: 2b02bc204148f94bb79b7a5b190f1d2069394ecb

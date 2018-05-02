@@ -1,0 +1,9 @@
+{% case page.lang %}
+{% when 'tr' %}
+  <h1>Etiket Bulutu</h1>
+  {% include cloud-tr.html %}
+{% else %}
+  <h1>Tag Cloud</h1>
+  {% include cloud-en.html %}
+{% endcase %}
+

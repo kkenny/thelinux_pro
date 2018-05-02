@@ -1,0 +1,27 @@
+---
+layout: post
+title: Tibetten Esen Rüzgar
+categories: [tr, blog]
+tags: [kaos, yazın, serbest, çeviri, şiir, trungpa]
+lang: tr
+uuid: 48b7e7ec-37ca-4980-9179-f617ecc657d3
+---
+
+* [`kaotik/99QUfEq20ak`](https://groups.google.com/forum/?fromgroups=#!topic/kaotik/99QUfEq20ak)
+
+Chögyam Trungpa'nın "ilk düşünce, en iyi düşünce" isimli şiir
+kitabından bu şiir ilginizi çeker diye düşünüyorum:
+
+> ### Doha'dan Derlenen
+> 
+> Doğmamış kaya  
+> Donakalmış gökyüzü  
+> Topallayan "rüzgar atı"¹  
+> Dilsiz kafatası  
+> Mavi kırmızı --  
+> Bunları düzene sokamazsan,  
+> Dilini, bala bulanmış usturayla kesme:  
+> İğnenin üstünde dans ederek neşelen.
+> 
+> ¹: "rüzgar atı" ya da Tibetçesiyle "lungta" Orta Asyadaki şaman
+> geleneğinin insan ruhu için kullandığı bir kinâyedir.

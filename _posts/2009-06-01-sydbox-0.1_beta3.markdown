@@ -1,0 +1,15 @@
+---
+layout: post
+title: Sydbox-0.1_beta3
+categories: [en, blog]
+tags: [sydbox, release]
+uuid: f0928074-d8c1-4775-855b-552e8c3f13d3
+---
+
+Sydbox-0.1\_beta3 is released.
+
+- Fixed event handling and inheritance of sandbox data.  
+  Sydbox behaves correctly now when a child calls fork(), vfork() or clone().
+
+tarball: [sydbox-0.1\_beta3.tar.bz2](http://alip.anapnea.net/sydbox/sydbox-0.1_beta3.tar.bz2)  
+sha1sum: 7ace8ee1463e3b76543c401334e7f6666547b97b

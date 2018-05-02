@@ -1,0 +1,95 @@
+/**
+ * Syntax highlighting styles
+ */
+.highlight {
+    @extend %vertical-rhythm;
+
+    /* created from https://github.com/morhetz/gruvbox */
+    color: #ebdbb2;
+    background: #2e2e2e;
+    .c { color: #928374; font-style: italic } /* Comment */
+    .err { color: #fb4934; background-color: #e3d2d2 } /* Error */
+    .k { color: #8ec07c; font-weight: normal } /* Keyword */
+    .o { font-weight: normal } /* Operator */
+    .cm { color: #928374; font-style: italic } /* Comment.Multiline */
+    .cp { color: #8ec07c; font-weight: bold } /* Comment.Preproc */
+    .c1 { color: #928374; font-style: italic } /* Comment.Single */
+    .cs { color: #928374; font-weight: bold; font-style: italic } /* Comment.Special */
+    /**/
+    .gd    { color: #000; background-color: #fdd } // Generic.Deleted
+    .gd .x { color: #000; background-color: #faa } // Generic.Deleted.Specific
+    .ge    { font-style: italic } // Generic.Emph
+    .gr    { color: #a00 } // Generic.Error
+    .gh    { color: #999 } // Generic.Heading
+    .gi    { color: #000; background-color: #dfd } // Generic.Inserted
+    .gi .x { color: #000; background-color: #afa } // Generic.Inserted.Specific
+    .go    { color: #888 } // Generic.Output
+    .gp    { color: #555 } // Generic.Prompt
+    .gs    { font-weight: bold } // Generic.Strong
+    .gu    { color: #aaa } // Generic.Subheading
+    .gt    { color: #a00 } // Generic.Traceback
+    .kc    { font-weight: bold } // Keyword.Constant
+    .kd    { font-weight: bold } // Keyword.Declaration
+    .kp    { color: #fb4934; font-weight: normal } /* Keyword.Pseudo */
+    .kr    { font-weight: bold } // Keyword.Reserved
+    .kt    { color: #fb4934; font-weight: bold } /* Keyword.Type */
+    .m     { color: #d3869b } /* Literal.Number */
+    .s     { color: #b8bb26 } /* Literal.String */
+    .na    { color: #fb4934 } /* Name.Attribute */
+    .nb    { color: #d3869b } /* Name.Builtin */
+    .nc    { color: #fabd2f; font-weight: bold } /* Name.Class */
+    .no    { color: #fabd2f } /* Name.Constant */
+    .ni    { color: #800080 } // Name.Entity
+    .ne    { color: #900; font-weight: bold } // Name.Exception
+    .nf    { color: #b8bb26; font-weight: bold } /* Name.Function */
+    .nn    { color: #555 } // Name.Namespace
+    .nt    { color: #000080 } // Name.Tag
+    .nv    { color: #83a598 } /* Name.Variable */
+    .ow    { font-weight: bold } // Operator.Word
+    .w     { color: #bbb } // Text.Whitespace
+    .mf    { color: #d3869b } /* Literal.Number.Float */
+    .mh    { color: #d3869b } /* Literal.Number.Hex */
+    .mi    { color: #d3869b } /* Literal.Number.Integer */
+    .mo    { color: #d3869b } /* Literal.Number.Oct */
+    .sb    { color: #b8bb26 } /* Literal.String.Backtick */
+    .sc    { color: #b8bb26 } /* Literal.String.Char */
+    .sd    { color: #b8bb26 } /* Literal.String.Doc */
+    .s2    { color: #b8bb26 } /* Literal.String.Double */
+    .se    { color: #b8bb26 } /* Literal.String.Escape */
+    .sh    { color: #b8bb26 } /* Literal.String.Heredoc */
+    .si    { color: #b8bb26 } /* Literal.String.Interpol */
+    .sx    { color: #b8bb26 } /* Literal.String.Other */
+    .sr    { color: #d3869b } /* Literal.String.Regex */
+    .s1    { color: #b8bb26 } /* Literal.String.Single */
+    .ss    { color: #d3869b } /* Literal.String.Symbol */
+    .bp    { color: #999 } // Name.Builtin.Pseudo
+    .vc    { color: #008080 } // Name.Variable.Class
+    .vg    { color: #008080 } // Name.Variable.Global
+    .vi    { color: #83a598; font-weight: bold; } /* Name.Variable.Instance */
+    .il    { color: #d3869b } /* Literal.Number.Integer.Long */
+/*
+dark0  = ['282828', 235]     " 40-40-40
+dark1  = ['3c3836', 237]     " 60-56-54
+dark2  = ['504945', 239]     " 80-73-69
+dark3  = ['665c54', 241]     " 102-92-84
+dark4  = ['7c6f64', 243]     " 124-111-100
+
+medium = ['928374', 245]     " 146-131-116
+
+light0 = ['fdf4c1', 229]     " 253-244-193
+light1 = ['ebdbb2', 223]     " 235-219-178
+light2 = ['d5c4a1', 250]     " 213-196-161
+light3 = ['bdae93', 248]     " 189-174-147
+light4 = ['a89984', 246]     " 168-153-132
+
+light4_256 = ['a89984', 246] " 168-153-132
+
+red    = ['fb4934', 167]     " 251-73-52
+green  = ['b8bb26', 142]     " 184-187-38
+yellow = ['fabd2f', 214]     " 250-189-47
+blue   = ['83a598', 109]     " 131-165-152
+purple = ['d3869b', 175]     " 211-134-155
+aqua   = ['8ec07c', 108]     " 142-192-124
+orange = ['fe8019', 208]     " 254-128-25
+*/
+}

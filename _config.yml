@@ -1,0 +1,49 @@
+# alip's jekyll config
+# vim: set ft=yaml et ts=2 sts=2 :
+
+# Configuration
+permalink: "/:categories/:year/:month/:day/:title/"
+markdown: kramdown
+hilighter: pygments
+lsi: false
+exclude: [.gitignore, _config.yml, _libraries, Makefile, tidy.log, old]
+gems:
+  - jekyll-sitemap
+
+# Custom variables
+title: "~alip"
+url: "https://alip.github.io"
+keywords: "Ali Polatel,alip,blog,programming,coding,personal,homepage,chaos,satranç,satranç dersi,şiir,edebiyat,çağrışım,kaos"
+
+# Author information
+author:
+  name: "Ali Polatel"
+  mail: "alip@exherbo.org"
+  jid:  "alip@jaim.at"
+  facebook: "hayaliali"
+  github: "alip"
+  googleplus: "AliPolatel"
+  keybase: "alip"
+  linkedin: "polatel"
+  twitter: "hayaliali"
+  twtxt: "https://dev.exherbo.org/~alip/twtxt.txt"
+
+# Disqus
+disqus:
+  shortname: "alip"
+
+# Feeds
+rss:
+  all: "http://feeds.feedburner.com/alip"
+  en:  "http://feeds.feedburner.com/alip-english"
+  tr:  "http://feeds.feedburner.com/alip-turkish"
+
+# Tags
+tag:
+  cloud:
+    levels: 15
+    limit:  100
+
+  list:
+    en: en/tags/index.html
+    tr: tr/tags/index.html

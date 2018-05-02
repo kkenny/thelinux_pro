@@ -1,0 +1,12 @@
+{% comment %}
+  downcase with proper support for Turkish characters
+{% endcomment %}
+
+{% capture myvar %}{{ myvar | replace:'Ç','ç' }}{% endcapture %}
+{% capture myvar %}{{ myvar | replace:'Ğ','ğ' }}{% endcapture %}
+{% capture myvar %}{{ myvar | replace:'I','ı' }}{% endcapture %}
+{% capture myvar %}{{ myvar | replace:'İ','i' }}{% endcapture %}
+{% capture myvar %}{{ myvar | replace:'Ö','ö' }}{% endcapture %}
+{% capture myvar %}{{ myvar | replace:'Ş','ş' }}{% endcapture %}
+{% capture myvar %}{{ myvar | replace:'Ü','u' }}{% endcapture %}
+{% capture mydownvar %}{{ myvar | downcase }}{% endcapture %}

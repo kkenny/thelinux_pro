@@ -1,0 +1,29 @@
+---
+layout: post
+title: Döl
+categories: [tr, blog]
+tags: [kaos, yazın, serbest, şiir]
+lang: tr
+uuid: 6e39cde4-65ff-479d-bc5e-87a6c92eddd0
+---
+
+* [`kaotik/3zL1EEv9KCM`](https://groups.google.com/forum/?fromgroups=#!topic/kaotik/3zL1EEv9KCM)
+
+> Tarihçiler şaraplarını yudumlayadursun  
+> Şu cahil kunduz yavrusu işgal etti  
+> Kafatasımı, aklımı, karanlığımı...  
+> Yalnız beraberken doğan güneş döndü yüzünü  
+> Günahlarıma tav olan İsa'ya,  
+> Anlamsız huzuruma, umutlarıma, yalnızlığıma...  
+> Aşka giden patikada ciğerini yardığında Sinan,  
+> Garda buldular cesedimi  
+> Açlık, susuzluk, uykusuzluk...  
+> Akıl yenik düştü tutkulara  
+> Emdiler kanımı,  
+> Kemirdiler etimi,  
+> Yaktılar kemiklerimi,  
+> Bulutsuz gökyüzünü sardı duman  
+> İsa'yı gördüm  
+> O'nu gördüm  
+> Kendime öldüm  
+> Gayrı dölüm hükümsüzdür...

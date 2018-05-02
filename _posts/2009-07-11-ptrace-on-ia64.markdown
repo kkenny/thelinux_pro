@@ -1,0 +1,68 @@
+---
+layout: post
+title: Ptrace on IA64
+categories: [en, blog]
+tags: [sydbox, ptrace, ia64]
+lang: en
+uuid: a1882870-df83-435f-bae3-b21d110a1f79
+---
+
+I decided to write a blog entry about my porting efforts of sydbox to IA64.  
+Thanks to [ahf](http://dev.exherbo.org/~ahf/) who gave me access to an IA64 box, I started porting sydbox to IA64.
+
+All ptrace() related stuff of Sydbox resides in
+[trace.c](http://github.com/alip/sydbox/blob/master/src/trace.c)
+so that's the file we're interested in.  
+For x86 and x86\_64 architectures everything was so easy,  
+just fill in some registry values and it's all done. For IA64, however,  
+additional hackery is needed.
+
+First problem, you can't include both sys/ptrace.h and linux/ptrace.h due to  
+redefinition errors. This is easy to solve, I added an autoconf check:
+
+{% highlight c %}
+
+    AC_CHECK_TYPES([struct pt_all_user_regs, struct ia64_fpreg],,,[#include <sys/ptrace.h>])
+
+{% endhighlight %}
+
+This one exports two defines to config.h namely **HAVE\_STRUCT\_IA64\_FPREG** and  
+**HAVE\_STRUCT\_PT\_ALL\_USER\_REGS** , using this two defines it's possible to include  
+both files using some preprocessor hacks:
+
+{% highlight c %}
+
+    #include <sys/ptrace.h>
+    /* We need additional hackery on IA64 to include linux/ptrace.h to avoid
+     * redefinition errors.
+     */
+    #if defined(IA64)
+    #ifdef HAVE_STRUCT_IA64_FPREG
+    #define ia64_fpreg XXX_ia64_fpreg
+    #endif // HAVE_STRUCT_IA64_FPREG
+    #ifdef HAVE_STRUCT_PT_ALL_USER_REGS
+    #define pt_all_user_regs XXX_pt_all_user_regs
+    #endif // HAVE_STRUCT_PT_ALL_USER_REGS
+    #include <linux/ptrace.h>
+    #undef ia64_fpreg
+    #undef pt_all_user_regs
+    #endif // defined(IA64)
+
+{% endhighlight %}
+
+and problem solved.
+
+The second problem is figuring out how to get system call number, this is easy too.  
+**PT\_R15** is the registry we need.
+
+The third problem is getting and setting the return value of system calls. On  
+IA64 the registry **PT\_R10** has the return value of the system call. One last thing  
+is the errno. The errno should reside in the **PT\_R8** registry and it should be  
+**positive** unlike x86 and x86\_64 where return value of the system call is the  
+negated errno.
+
+So far so good, the last problem is getting and setting arguments of functions.  
+This is a bit too long to explain, interested readers are encouraged to look at  
+the **trace\_ia64\_peek** function in [trace.c](http://github.com/alip/sydbox/blob/master/src/trace.c).
+
+**edit**: Highlight code.

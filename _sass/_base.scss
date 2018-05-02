@@ -1,0 +1,248 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/**
+ * Basic styling
+ */
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    font-weight: 300;
+    color: $text-color;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 100%;
+    margin: 9px auto;
+    padding: 0 9px;
+    min-width: 28em;
+    max-width: 40em;
+    text-shadow: 1px 1px #030303;
+}
+
+
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+}
+
+
+
+/**
+ * Images
+ */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+
+/**
+ * Figures
+ */
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-font-size;
+}
+
+
+
+/**
+ * Lists
+ */
+ul, ol {
+    margin-left: $spacing-unit;
+}
+
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
+
+ul.horizontal {
+  list-style-type: none;
+
+  li {
+    display: inline;
+  }
+}
+
+/**
+ * Headings
+ */
+h1 {
+    color: #d79921;
+}
+
+h2 {
+    color: #fe8019;
+}
+
+h3, h4, h5, h6 {
+    color: #fb4934;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 17px;
+    margin: 17px 0;
+    font-weight: 600;
+}
+
+
+
+/**
+ * Links
+ */
+a {
+    color: #458588;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #83a598;
+}
+
+
+
+/**
+ * Blockquotes
+ */
+blockquote {
+    color: $grey-color;
+    // border-left: 4px solid $grey-color-light;
+    padding-left: $spacing-unit / 2;
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-style: italic;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+
+/**
+ * Code formatting
+ */
+
+pre {
+    font: 17px "Ubuntu Mono", Monaco, "Courier New", monospace;
+    background-color: #2e2e2e;
+    max-width: 730px;
+    color: #ebdbb2;
+    margin: 17px 0;
+    word-break: break-all; /* webkit */
+    word-wrap: break-word;
+    white-space: pre;
+    white-space: -moz-pre-wrap; /* fennec */
+    white-space: pre-wrap;
+    white-space: pre\9; /* IE7+ */
+}
+
+.post-content h4.filename {
+    font: 17px "Ubuntu Mono", Monaco, "Courier New", monospace;
+    background-color: #2e2e2e;
+    max-width: 730px;
+    color: #fb4934;
+    margin: 17px 0 -14px;
+}
+
+.post-content code {
+    font: 17px "Ubuntu Mono", Monaco, "Courier New", monospace;
+    color: #ebdbb2;
+    background-color: #2e2e2e;
+}
+
+.post-content code.filename {
+    color: #fb4934;
+}
+
+/* terminal */
+.post-content pre.terminal {
+    border: 1px solid #000;
+    background-color: #333;
+    color: #FFF;
+}
+
+.post-content pre.terminal code {
+    background-color: #333;
+}
+
+
+/**
+ * Wrapper
+ */
+.wrapper {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
+}
+
+
+
+/**
+ * Clearfix
+ */
+%clearfix {
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+
+
+/**
+ * Icons
+ */
+.icon {
+
+    > svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+
+        path {
+            fill: $grey-color;
+        }
+    }
+}

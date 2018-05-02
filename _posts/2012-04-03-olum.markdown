@@ -1,0 +1,23 @@
+---
+layout: post
+title: Ölüm
+categories: [tr, blog]
+tags: [kaos, yazın, serbest, şiir, ölüm]
+lang: tr
+uuid: e2c9e004-1460-43de-adb0-6a94e04d9b6e
+---
+
+* [`kaotik/ImCMgXvP_J8`](https://groups.google.com/forum/?fromgroups=#!topic/kaotik/ImCMgXvP_J8)
+
+> Papatyaların içinde buldum ölümü  
+> Uçsuz bucaksız sarının içinde  
+> Boylu boyunca yatmış deli mi ne  
+> Kanatlarını vermiş şehvete  
+> Nefesini almak için geriye  
+> İmkansız karanlığımı bırakıp ellerimden  
+> Sarıldım beline  
+> Şehvetin dalgınlığını fırsat bilip  
+> Teni tenime  
+> Tenim tenine  
+> Nefes nefese  
+> Ölümün bacaklarını ayırdım o gece...

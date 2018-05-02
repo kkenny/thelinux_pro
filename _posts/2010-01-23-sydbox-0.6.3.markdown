@@ -1,0 +1,17 @@
+---
+layout: post
+title: sydbox-0.6.3
+categories: [en, blog]
+tags: [exherbo, release, sydbox]
+uuid: bd7c970e-651d-469d-b88e-d7711674807b
+---
+
+sydbox-0.6.3 is released. (
+[tarball](http://dev.exherbo.org/~alip/sydbox/sydbox-0.6.3.tar.bz2),
+[sign](http://dev.exherbo.org/~alip/sydbox/sydbox-0.6.3.tar.bz2.asc),
+[sha1sum](http://dev.exherbo.org/~alip/sydbox/sydbox-0.6.3.tar.bz2.sha1sum)
+)
+
+* Resolve path of non-abstract UNIX sockets
+* Intercept dup family calls and fcntl calls to see if a socket descriptor we
+  care about has been duplicated

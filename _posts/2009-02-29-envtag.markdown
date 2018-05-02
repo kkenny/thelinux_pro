@@ -1,0 +1,20 @@
+---
+layout: post
+title: Envtag
+categories: [en, blog, envtag]
+uuid: 35973a29-46fd-4d6c-9a40-81faab775f2c
+---
+
+[taginfo](http://freshmeat.net/projects/taginfo) is a useful audio tag reader
+that can be used in shell scripts.  
+The bad thing is it can't set tags so until now I had to use
+[audiotag](http://www.tempestgames.com/ryan) to set the tags in my shell
+scripts.
+
+Today I've written a simple tool called
+[envtag](http://github.com/alip/envtag/tree/master) while experimenting with
+taglib's C bindings.  
+It's a lot like taginfo and adds a -s option to set the tags from environment
+variables.  
+The [README](http://github.com/alip/envtag/blob/master/README.mkd) is here if you
+are interested.

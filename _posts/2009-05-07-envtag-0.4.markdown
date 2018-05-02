@@ -1,0 +1,15 @@
+---
+layout: post
+title: Envtag 0.4
+categories: [en, blog]
+tags: [audio, envtag, release]
+uuid: a29896d1-bee1-4979-8dc4-9774b2f7a4bc
+---
+
+Envtag-0.4 has been released.
+- Modular architecture, exporting tag functions to [Lua](http://www.lua.org).
+- Proper exit codes.
+- Update alt\_getopt to 0.6.
+
+tarball: [envtag-0.4.tar.gz](http://alip.anapnea.net/envtag/envtag-0.4.tar.gz)  
+sha1sum: a74c84286e1b61dfe9522635b2f7970589793fe0

@@ -1,0 +1,12 @@
+---
+layout: post
+title: Go Vlad!
+categories: [en, blog]
+tags: [chess, world, kramnik]
+uuid: 6231bbc7-680c-4554-89a8-75a0e3e452a4
+---
+
+Despite all efforts of the Topalov team __Vladimir Kramnik__ managed to win the
+title.  
+He's now the world unified chess champion.  
+Congratulations Kramnik!

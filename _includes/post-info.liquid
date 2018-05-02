@@ -1,0 +1,8 @@
+<ul class="horizontal">
+  <li class="post_date">{% include post-date.liquid %} &raquo;</li>
+  {% if mypost.tags and mypost.tags.size > 0 %}
+    {% for mytag in mypost.tags %}
+      <li>{% include tag-link.liquid %}</li>
+    {% endfor %}
+  {% endif %}
+</ul>

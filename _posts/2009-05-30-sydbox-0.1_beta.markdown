@@ -1,0 +1,20 @@
+---
+layout: post
+title: Sydbox-0.1_beta
+categories: [en, blog]
+tags: [sydbox, release]
+uuid: b0282366-f3fe-4ec7-aff4-78b5f591c073
+---
+
+Sydbox-0.1\_beta has been released.  
+- Fix bogus access violations.  
+  As an example sydbox would throw an access violation in a simple case like:
+
+    mkdir -p /var/tmp/paludis
+  because of mkdir(”/var”, …) being called. This is now fixed.  
+- Use glib's key file format for configuration file. This kills the dependency  
+  on dev-libs/confuse. Being a crucial system tool we’re trying to keep the  
+  dependencies as few as possible.
+
+tarball: [sydbox-0.1\_beta.tar.bz2](http://alip.anapnea.net/sydbox/sydbox-0.1_beta.tar.bz2)  
+sha1sum: 492a140d9472695fac0de5040aa2fb7ed5832c48

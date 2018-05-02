@@ -1,0 +1,11 @@
+---
+layout: post
+title: Pembe
+categories: [tr, blog]
+tags: [aşk, pembe, pink floyd]
+uuid: a4c576ee-01e1-4505-987a-ac453d780364
+---
+
+Pembe kokuyorsun sevdiğim, pespembe kokuyorsun...  
+Kokladıkça sarhoş oluyorum, incitiyorum kendimi...  
+İncittikçe çoğalıyorum, devrim gibi sevdiğim...

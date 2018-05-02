@@ -1,0 +1,22 @@
+<script type="text/javascript">
+board_fen[{{ board_counter }}] = '{{ board_fen }}';
+board_mov[{{ board_counter }}] = parse_moves('{{ board_mov }}');
+board_res[{{ board_counter }}] = '{{ board_res }}';
+board_lang                     = '{{ page.lang }}';
+</script>
+
+<div class="chess_board_container" style="margin-left: 150px;">
+  <div class="chess_board_title" style="margin-bottom: 5px;">
+    <span class="chess_title" style="color: #ff9966;">{{ board_title }}</span><br />
+    <span id="chess_status_{{ board_counter }}">&nbsp;</span>
+  </div>
+  <div class='chess_board' id="chess_board_{{ board_counter }}"
+       style="height: 360px; width: 360px; position: relative;">
+  </div>
+<ul class="horizontal" style="margin: 5px 0px 10px 140px;">
+  <li><a id='prev_move_{{ board_counter }}' href='#'><i class="fa fa-arrow-left fa-lg"></i></a></li>
+  <li><a id='flipboard_{{ board_counter }}' href='#'><i class="fa fa-repeat fa-lg"></i></a></li>
+  <li><a id='next_move_{{ board_counter }}' href='#'><i class="fa fa-arrow-right fa-lg"></i></a></li>
+  <li style='margin-left: 105px;'><i id='display_turn_{{ board_counter }}' class="fa fa-lg fa-square"></i></li>
+</ul>
+</div>

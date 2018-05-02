@@ -1,0 +1,63 @@
+div#htmltagcloud {
+  padding: 2em;
+  position: relative;
+  vertical-align: middle;
+  a {
+    border: none;
+    font-family: $base-font-family;
+    line-height: 1.3em;
+    text-align: center;
+    text-decoration: none;
+  }
+}
+
+span {
+  &.tagcloud0 {
+    font-size: 12px;
+  }
+  &.tagcloud1 {
+    font-size: 13px;
+  }
+  &.tagcloud2 {
+    font-size: 14px;
+  }
+  &.tagcloud3 {
+    font-size: 15px;
+  }
+  &.tagcloud4 {
+    font-size: 16px;
+  }
+  &.tagcloud5 {
+    font-size: 17px;
+  }
+  &.tagcloud6 {
+    font-size: 18px;
+  }
+  &.tagcloud7 {
+    font-size: 19px;
+  }
+  &.tagcloud8 {
+    font-size: 20px;
+  }
+  &.tagcloud9 {
+    font-size: 21px;
+  }
+  &.tagcloud10 {
+    font-size: 23px;
+  }
+  &.tagcloud11 {
+    font-size: 25px;
+  }
+  &.tagcloud12 {
+    font-size: 27px;
+  }
+  &.tagcloud13 {
+    font-size: 29px;
+  }
+  &.tagcloud14 {
+    font-size: 31px;
+  }
+  &.tagcloud15 {
+    font-size: 33px;
+  }
+}

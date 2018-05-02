@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/alip
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://alip.github.io
+  * I am alip (https://keybase.io/alip) on keybase.
+  * I have a public key with fingerprint 998D A2FF 5D7D 798B 3945  A40E 414E 3239 1845 F220
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01117a3209e744583614eb12f55235e15b4049471df206f28504eb0d151573847d720a",
+            "fingerprint": "998da2ff5d7d798b3945a40e414e32391845f220",
+            "host": "keybase.io",
+            "key_id": "414e32391845f220",
+            "kid": "01117a3209e744583614eb12f55235e15b4049471df206f28504eb0d151573847d720a",
+            "uid": "fe23609614e1128e86ba8f9e60874f19",
+            "username": "alip"
+        },
+        "service": {
+            "hostname": "alip.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1484315957,
+    "expire_in": 157680000,
+    "prev": "7d49b975bcdc5d596be51f8cee3aeff1bbc5c984506195a3c562fc103501e748",
+    "seqno": 12,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2
+
+owGtkmtQVGUYxxcEBxCJHUJ0HBo54ijjAuf2ngtDhYMhlmAhsRsxrefynuXAtrvs
+nmW5iLcZU3DULpoxSCQI1lAWIDgBIm06GlDUuEw1DpcxnCSGQiEJ0ewcypk+9LH3
+yzvv8/yf3/t/nnneXL5EF+KXltgTkv5rwy2//gleZyoZ3lqO8HaxFEkqRwrh4gWt
+InQp5kJZRJIQFMMwmiNwlIU0SQKGoDAS8hguAYATAGKAJ1GSJWlMlHCUknAGoGoe
+FTGAAZpgSFqkcZRDDIgk2yzQ6XDKNkXFsiwjcrgkAVEVsAxPsCTgSBSSKp3ACRZj
+SCDhOKoW5ttdWoVqjudcMEG2qzH1YV609x/6/9m3exEnQZygUFaDYBjOQIbiOUZi
+IYUyNClhrCZ0QaeNex2qas4qO5AKA6JGimUBakPVuvhXNsEiK/lu/u9uHE67Yhfs
+VjWXrygOV5JWq5Q6NLEH8uZ/MGZetonqFNWKYuh0yXYbkoSpSkGRNS5GMiSBARbQ
+BgSWOGQnNMuaAtAUg6pH+wcWq0haJFmepQFvFEQBiICleAgwiREgJDgoSRjPC0Bg
+1YmiFMYCjhAAhUsChhIAxdRpMojWWZHNrsJx1ShnUaEu2WLjFLcTIhUhlf5EgM4v
+RBe9IibA/962zkurpqIiXkFaH69eoL+2d7qQ4PDHkZht4brDp6Pv5oTtMM8RY94H
+B313v6EMMwWp76RYB2/tr+tO0Js26gc23hb49Bsr0mdjp7IN8ceqHo3EZJ6NHD1z
+Ii+ne8+6c210s2/Wp6/o/aD/0Etn+/ZsnXxy4fz4xzuXDYzvm71pqTfuXioev7k5
+rutqytrlyJaKsGNNqbXbB61ZE0M9b+k9Nijmjj2VPeIzGzLN9TvLrxORo01BjU0O
+Z11XZSTy6fbQHRdHDuyue3XOM2U8csit8w6tNpvYC2F3vp4YtXx044S18PfLtcGJ
+lIk2thw9M1813PsgYeptb0PHxb1KytHPez0Hh68MtUmJ3brfxCLPfV1g2x1z0Vc/
+ODL3Ncak+8pzOv8Ii5Q3zI8eL1lJzMS5QzOures9iV5+OBQw/yi17Nn1ae9eOxnz
+2ZqMb9vv1a/Ji52M4r+Ll5srByNSsvavLt/ydNDzLS2xBpsSUfahPTnwkljzzG0f
+ZXova9o4Wuk2B4c3FLR9khP7cuzm9s4DvxRwSV8sC/2Z918/HpXXlxZwPTN/12vD
+C0W10cl748VzLXWDuXO7Vtb8+Ub14HSlXJ0/s0pvYLtIb2Bf69jA+YdruWSf0jH/
+U/XACxPtwFO1aa4nORe33fcuHY5LpU553z/VNR625InUDaf7W7+MH3uu8XB9cI1g
+66pDpzddSXixLGOh2eTf8aMQ9L3bmH219MLkXw==
+=PQXp
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/alip
+
+==================================================================
+

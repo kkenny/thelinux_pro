@@ -1,0 +1,13 @@
+---
+layout: post
+title: Envtag 0.1
+categories: [en, blog]
+tags: [audio, envtag, release]
+uuid: b8a93471-e78c-430b-9f03-ea1f4bbbfb9b
+---
+
+Envtag-0.1 is released, you can grab it
+[here](http://alip.anapnea.net/envtag/envtag-0.1.tar.gz).  
+Envtag is a simple audio tagger for use in shell scripts.  
+For more information see the
+[README](http://github.com/alip/envtag/blob/master/README.mkd).
