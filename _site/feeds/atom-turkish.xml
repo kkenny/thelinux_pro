@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>~kameron (türkçe)</title>
+ <link href="http://thelinux.pro/feeds/atom-turkish.xml" rel="self"/>
+ <link href="http://thelinux.pro/tr/"/>
+ <updated>2018-05-05T15:16:50-04:00</updated>
+ <id>http://thelinux.pro</id>
+ <author>
+   <name>Ali Polatel</name>
+   <email></email>
+ </author>
+
+ 
+
+</feed>

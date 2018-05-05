@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>~kameron</title>
+ <link href="http://thelinux.pro/feeds/atom.xml" rel="self"/>
+ <link href="http://thelinux.pro/"/>
+ <updated>2018-05-05T15:16:50-04:00</updated>
+ <id>http://thelinux.pro</id>
+ <author>
+   <name>Ali Polatel</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Shell Meditation</title>
+   <link href="http://thelinux.pro/en/blog/2017/01/13/shell-meditation/"/>
+   <updated>2017-01-13T00:00:00-05:00</updated>
+   <id>http://thelinux.pro/en/blog/2017/01/13/shell-meditation</id>
+   <content type="html">&lt;p&gt;Seek your music. As you please.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;    &lt;span class=&quot;k&quot;&gt;while &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt;; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;((&lt;/span&gt; z &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;RANDOM&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt; % 100 &lt;span class=&quot;o&quot;&gt;))&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;((&lt;/span&gt; a &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$z&lt;/span&gt; % 10 &lt;span class=&quot;o&quot;&gt;))&lt;/span&gt;
+        mpc seek &lt;span class=&quot;nv&quot;&gt;$z&lt;/span&gt;% &amp;amp;
+        sleep &lt;span class=&quot;nv&quot;&gt;$a&lt;/span&gt;
+        &lt;span class=&quot;nb&quot;&gt;kill&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$!&lt;/span&gt;
+        &lt;span class=&quot;nb&quot;&gt;wait
+    &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;done&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>First Post</title>
+   <link href="http://thelinux.pro/blog/2017/01/03/endgame-tricks/"/>
+   <updated>2017-01-03T00:00:00-05:00</updated>
+   <id>http://thelinux.pro/blog/2017/01/03/endgame-tricks</id>
+   <content type="html">&lt;p&gt;
+Chess endgames often look deceptively simple. Reduced number of pieces on the board
+brings reduced alertness to the player. Thus, it is not uncommon for the adversary
+to come up with sneaky ways to take advantage of this relaxed state. Thinking in
+terms of psychology, the most important feature of this relaxed state is the reduced
+feeling of danger which in turn leads to reluctance to justify moves with concrete
+variations. Even though, schematic thinking is an important feature of endgame
+technique, it has a psychological danger where player's reliance upon natural moves
+rather than logical ones can lead h/er to trouble when there exists a non-obvious
+nuisance in the position which establishes a significant distinction between the
+natural and the logical. At the end of the day chess is purely mathematics and the
+term natural is nothing but pattern recognition. Yet, no pattern is exactly the
+same.
+&lt;/p&gt;
+
+&lt;p&gt;
+One form of blunder which is very common to such a frame of mind is &lt;tt&gt;quiescence
+errors&lt;/tt&gt; where the player is decepted by the natural aesthetics of a seemingly winning
+move sequence and fails to spot a trap which is no further than half a move away.
+The main reason of the blunder is psychological, the sudden change of excitement
+coupled with the reduced sense of danger literally blinds the player who could
+otherwise easily spot the problem with the move sequence at hand. Below is a simple,
+illustrative example of such an error. This is an online blitz game where I had the
+white pieces.
+&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+
+</feed>

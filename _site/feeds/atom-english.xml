@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>~kameron (english)</title>
+ <link href="http://thelinux.pro/feeds/atom-english.xml" rel="self"/>
+ <link href="http://thelinux.pro/en/"/>
+ <updated>2018-05-05T15:16:50-04:00</updated>
+ <id>http://thelinux.pro</id>
+ <author>
+   <name>Ali Polatel</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Shell Meditation</title>
+   <link href="http://thelinux.pro/en/blog/2017/01/13/shell-meditation/"/>
+   <updated>2017-01-13T00:00:00-05:00</updated>
+   <id>http://thelinux.pro/en/blog/2017/01/13/shell-meditation</id>
+   <content type="html">&lt;p&gt;Seek your music. As you please.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;    &lt;span class=&quot;k&quot;&gt;while &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt;; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;((&lt;/span&gt; z &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;RANDOM&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt; % 100 &lt;span class=&quot;o&quot;&gt;))&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;((&lt;/span&gt; a &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$z&lt;/span&gt; % 10 &lt;span class=&quot;o&quot;&gt;))&lt;/span&gt;
+        mpc seek &lt;span class=&quot;nv&quot;&gt;$z&lt;/span&gt;% &amp;amp;
+        sleep &lt;span class=&quot;nv&quot;&gt;$a&lt;/span&gt;
+        &lt;span class=&quot;nb&quot;&gt;kill&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$!&lt;/span&gt;
+        &lt;span class=&quot;nb&quot;&gt;wait
+    &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;done&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+</content>
+ </entry>
+ 
+
+</feed>
