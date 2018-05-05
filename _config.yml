@@ -13,19 +13,19 @@ gems:
 # Custom variables
 title: "~kameron"
 url: "http://thelinux.pro"
-keywords: "Ali Polatel,alip,blog,programming,coding,personal,homepage"
+keywords: "Kameron,Kenny,Kameron Kenny,blog,programming,coding,personal,homepage"
 
 # Author information
 author:
   name: "Kameron Kenny"
-  mail: "Someone@Somewhere.net"
+  #mail: "Someone@Somewhere.net"
   github: "kkenny"
   linkedin: "kameronkenny"
   twitter: "kameronkenny"
 
 # Feeds
-rss:
-  all: ""
+#rss:
+#  all: ""
 
 # Tags
 tag:
