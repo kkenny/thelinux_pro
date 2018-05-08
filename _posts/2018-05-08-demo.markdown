@@ -1,0 +1,13 @@
+---
+layout: post
+title: Demo
+categories: [en, blog]
+tags: [demo, chef, vagrant]
+---
+
+This demo can very easily be ran by cloning a few git repos to your machine, then running:
+
+{% highlight bash %}
+  cd src/pi_challenge
+  vagrant up
+{% endhighlight %}
